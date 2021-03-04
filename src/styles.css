@@ -1,0 +1,106 @@
+body {
+  background-image: url("src/clouds.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 400px;
+  display: block;
+  margin: 10px auto 100px auto;
+}
+
+h5 {
+  color: #180c28;
+  font-size: 23px;
+}
+
+h6 {
+  color: #180c28;
+  font-size: 17px;
+}
+
+span {
+  padding: 0.8px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #180c28;
+  opacity: 90%;
+}
+
+li {
+  display: block;
+}
+
+.forecast {
+  padding-top: 5px;
+  padding-bottom: 90px;
+}
+
+.card {
+  background-color: transparent;
+  border-color: #0f0101;
+  padding: 5px;
+  margin: 2px 100px 150px 2px;
+}
+
+.card-body {
+  margin: 1px 30px 10px 1px;
+}
+
+.row {
+  position: relative;
+  top: -180px;
+  padding: 5px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #180c28;
+  margin-left: -30px;
+}
+
+.card-text {
+  padding: 30px;
+  color: #180c28;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+.units {
+  font-size: 15px;
+}
+.humidity {
+  font-size: 22px;
+}
+
+.wind {
+  font-size: 22px;
+}
+
+.btn-secondary {
+  color: #180c28;
+  background-color: #d3dffd;
+  border-color: #180c28;
+  transition: 0.4s;
+  border-radius: 5px;
+  font-size: 17px;
+  margin: 4px;
+  margin-bottom: 7px;
+}
+
+.btn-secondary:hover {
+  background-color: #b3c9fc;
+  color: #180c28;
+}
+
+input[type="submit"] {
+  border-color: #180c28;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 3.5px 10px 3.5px 10px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+}
+input[type="submit"]:hover {
+  background-color: #aaaaaa;
+  color: #180c28;
+  transition: 0.4s;
+}
