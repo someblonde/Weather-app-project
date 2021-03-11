@@ -47,15 +47,13 @@ li {
 
 .row {
   position: relative;
-  top: -200px;
-  padding: 20px;
+  top: -170px;
+  padding: 10px;
   font-size: 17px;
   font-weight: bold;
   color: #180c28;
   margin-left: -30px;
 }
-
-
 
 .card-text {
   padding: 30px;
