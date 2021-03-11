@@ -17,104 +17,100 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="src/styles.css" />
-    
   </head>
   <body>
     <div class="container">
       <br />
       <form id="search-form">
-        <br>
-        <input type="text" id="search-text-input" placeholder="Enter a location" />
+        <br />
+        <input
+          type="text"
+          id="search-text-input"
+          placeholder="Enter a location"
+        />
         <input type="submit" />
-        
-      
-        <button type="current-location-button" id="current-location-button" class="btn btn-secondary btn-sm">Current</button>
-      
-        
-        
+
+        <button
+          type="current-location-button"
+          id="current-location-button"
+          class="btn btn-secondary btn-sm"
+        >
+          Current
+        </button>
       </form>
       <br />
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 18rem">
         <div class="card-body">
           <h5 class="card-title" id="city"></h5>
-          <h6 class="card-subtitle mb-2 text-muted">
-              </h6>
-              <h6 id="day-time"> Friday 7:00pm
-                 </h6>
-               
-          
-          
-              
-               <span id="temperature"></span> <span class="units">°C|
-                 <a href="#" id="fahrenheit-link"> °F </a></span>
-        
-                 <li>
-                   Humidity: <span class="humidity" id="humidity"></span>%
-                 </li>
-                 <li>
-                   Wind: <span class= "wind" id="wind"></span>km/h
-                 </li>
-                   
-                 
-          </div> 
-          <p class="card-text" id="description">
-         
-          </p>
+          <h6 class="card-subtitle mb-2 text-muted"></h6>
+          <h6 id="day-time">Friday 7:00pm</h6>
+
+          <span id="temperature">10 </span>
+          <span class="units"
+            >°C| <a href="#" id="fahrenheit-link"> °F </a></span
+          >
+
+          <li>Humidity: <span class="humidity" id="humidity"></span>%</li>
+          <li>Wind: <span class="wind" id="wind"></span>km/h</li>
+        </div>
+        <p class="card-text" id="description"></p>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <div class="row">
+      <div class="col">
+        Sun <br />
+        <br />
+        <i class="fas fa-snowflake fa-2x"></i>
+        <div class="weather-forecast-temperature">
+          <strong>5° </strong>
+        </div>
+      </div>
+      <div class="col">
+        Mon <br />
+        <br />
+        <i class="fas fa-snowflake fa-2x"></i>
+        <div class="weather-forecast-temperature">
+          <strong>10° </strong>
+        </div>
+      </div>
+      <div class="col">
+        Tue <br />
+        <br />
+        <i class="fas fa-cloud fa-2x icons"></i>
+        <div class="weather-forecast-temperature">
+          <strong>8° </strong>
+        </div>
+      </div>
+      <div class="col">
+        Wed <br />
+        <br />
+        <i class="fas fa-cloud-sun fa-2x"></i>
+        <div class="weather-forecast-temperature">
+          <strong>2° </strong>
+        </div>
+      </div>
+      <div class="col">
+        Thu <br />
+        <br />
+        <i class="fas fa-cloud-sun fa-2x"></i>
+        <div class="weather-forecast-temperature">
+          <strong>5° </strong>
         </div>
       </div>
 
       <br />
       <br />
-      <div class="row">
-        <div class="col">
-          Sun <br>
-           <br />
-                <i class="fas fa-snowflake fa-2x"></i>
-              <div class="weather-forecast-temperature">
-                <strong>5° </strong>
-              </div>
-        </div>
-        <div class="col">
-            Mon <br>
-             <br />
-            <i class="fas fa-snowflake fa-2x"></i>
-            <div class="weather-forecast-temperature">
-              <strong>10° </strong>
-            </div>
-          </div>
-          <div class="col">
-              Tue <br>
-               <br />
-              <i class="fas fa-cloud fa-2x icons"></i>
-              <div class="weather-forecast-temperature">
-                <strong>8° </strong>
-              </div>
-            </div>
-            <div class="col">
-               Wed <br>
-                 <br />
-                <i class="fas fa-cloud-sun fa-2x"></i>
-                <div class="weather-forecast-temperature">
-                  <strong>2° </strong>
-                </div>
-              </div>
-              <div class="col">
-                  Thu <br>
-                   <br />
-                        <i class="fas fa-cloud-sun fa-2x"></i>
-                        <div class="weather-forecast-temperature">
-                          <strong>5° </strong>
-                        </div>
-                </div>
-
-              <br>
-              <br>
-                 
     </div>
-     <small> 
-        <a href="https://github.com/someblonde/Weather-app-project">Open-source code</a> by Someblonde
+    <small>
+      <a href="https://github.com/someblonde/Weather-app-project"
+        >Open-source code</a
+      >
+      by Someblonde
     </small>
-  
+
     <script src="src/index.js"></script>
   </body>
 </html>
