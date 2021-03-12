@@ -45,6 +45,16 @@ li {
   margin: 1px 30px 10px 1px;
 }
 
+.card-body .active{
+  color:black;
+  cursor:default;
+}
+
+.card-body .active:hover{
+  text-decoration: none;
+}
+
+
 .row {
   position: relative;
   top: -170px;
@@ -65,6 +75,8 @@ li {
 .units {
   font-size: 15px;
 }
+
+
 .humidity {
   font-size: 22px;
 }
