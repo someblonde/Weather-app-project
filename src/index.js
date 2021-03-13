@@ -32,7 +32,9 @@ function displayWeather(response) {
     response.data.weather[0].main;
 
     celsiusTemperature = response.data.main.temp;
+    iconElement.setAttribute("src",  ` http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
 }
+    
 
 function search(event) {
   event.preventDefault();
@@ -43,6 +45,7 @@ function search(event) {
   city.innerHTML = `${searchInput.value}`;
 
   axios.get(apiUrl).then(displayWeather);
+  
 }
 
 function searchLocation(position) {
