@@ -36,9 +36,20 @@ function displayWeather(response) {
 }
    
 function displayForecast(response){
+    
   let forecastElement = document.querySelector("#forecast");
-  
-  console.log(response.data.list[0]);
+  let forecast = response.data.list[0];
+   console.log(forcast);
+  forecastElement.innerHTML = `<div class="col">
+        12:00 <br />
+        <img src ="https://ssl.gstatic.com/onebox/weather/48/rain_light.png"
+        alt=""
+        />
+        <div class="weather-forecast-temperature">
+          <strong>${Math.round (forecast.main.temp_max)}°</strong> ${Math.round(forecast.main.temp_min)}°
+        </div>
+      </div>`;
+ 
 }
 
 function search(event) {
