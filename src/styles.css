@@ -29,7 +29,7 @@ li {
   display: block;
 }
 
-img{
+img {
   vertical-align: middle;
 }
 
@@ -39,27 +39,23 @@ img{
 }
 
 .card {
-  
   background-color: transparent;
   border-color: #0f0101;
   padding: 10px;
-  margin: 2px 10px 150px 2px;
+  margin: 10px 200px 200px 200px;
 }
 
-
-
-.card-body .active{
-  color:black;
-  cursor:default;
+.card-body .active {
+  color: black;
+  cursor: default;
 }
 
-.card-body .active:hover{
+.card-body .active:hover {
   text-decoration: none;
 }
 
-
 .row {
-  display:flex;
+  display: flex;
   align-items: center;
   position: relative;
   top: -170px;
@@ -67,13 +63,10 @@ img{
   font-size: 17px;
   font-weight: bold;
   color: #180c28;
-  margin-right:-10px;
+  margin-right: -10px;
   margin-left: -10px;
   flex-wrap: wrap;
- 
-  
 }
-
 
 .card-text {
   padding: 30px;
@@ -86,13 +79,16 @@ img{
   font-size: 15px;
 }
 
-
 .humidity {
   font-size: 22px;
 }
 
 .wind {
   font-size: 22px;
+}
+
+.search-block{
+  display: block;
 }
 
 .btn-secondary {

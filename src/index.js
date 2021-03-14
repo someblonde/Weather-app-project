@@ -15,6 +15,7 @@ let hours = now.getHours();
 let minutes = now.getMinutes();
 currentDateandTime.innerHTML = `${day} ${hours}:${minutes}`;
 
+
 function displayWeather(response) {
   console.log(response.data);
   document.querySelector("#city").innerHTML = response.data.name;
@@ -119,18 +120,7 @@ function displayForecast(response){
         </div>
       </div>`;
 
-      forecast = response.data.list[6];
-  forecastElement.innerHTML += 
   
-    `<div class="col">
-        12:00 <br />
-        <img src ="http://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png"
-        alt=""
-        />
-        <div class="weather-forecast-temperature">
-          <strong>${Math.round (forecast.main.temp_max)}°</strong> ${Math.round(forecast.main.temp_min)}°
-        </div>
-      </div>`;
 }
 
 function search(event) {
