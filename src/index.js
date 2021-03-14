@@ -15,6 +15,11 @@ let hours = now.getHours();
 let minutes = now.getMinutes();
 currentDateandTime.innerHTML = `${day} ${hours}:${minutes}`;
 
+function formatHours (timestamp){
+  return `${hours}:${minutes}`;
+
+}
+
 function displayWeather(response) {
   console.log(response.data);
   document.querySelector("#city").innerHTML = response.data.name;
@@ -41,13 +46,12 @@ function displayWeather(response) {
 }
    
 function displayForecast(response){
-    
   let forecastElement = document.querySelector("#forecast");
   let forecast = response.data.list[0];
-   console.log(forcast);
+   console.log(forecast);
   forecastElement.innerHTML = `<div class="col">
-        12:00 <br />
-        <img src ="https://ssl.gstatic.com/onebox/weather/48/rain_light.png"
+        ${forecast.dt} <br />
+        <img src ="http://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png"
         alt=""
         />
         <div class="weather-forecast-temperature">
