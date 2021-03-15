@@ -8,12 +8,12 @@ body {
 }
 
 h5 {
-  color: #180c28;
+  color: #2c2f3d;
   font-size: 23px;
 }
 
 h6 {
-  color: #180c28;
+  color: #3c4154;
   font-size: 17px;
 }
 
@@ -21,12 +21,14 @@ span {
   padding: 0.8px;
   font-size: 35px;
   font-weight: bold;
-  color: #180c28;
+  color: #2c2f3d;
   opacity: 90%;
 }
 
 li {
   display: block;
+  font-size: 17px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 img {
@@ -39,10 +41,13 @@ img {
 }
 
 .card {
-  background-color: transparent;
-  border-color: #0f0101;
+  background-color: #f6e2f1;
+ 
+  border-color: #f2dbe5;
+  border-width: 2px;
   padding: 10px;
   margin: 10px 200px 200px 200px;
+  box-sizing:content-box
 }
 
 .card-body .active {
@@ -52,6 +57,7 @@ img {
 
 .card-body .active:hover {
   text-decoration: none;
+ 
 }
 
 .row {
@@ -62,21 +68,28 @@ img {
   padding: 10px;
   font-size: 17px;
   font-weight: bold;
-  color: #180c28;
+  color: #2c2f3d;
   margin-right: -10px;
   margin-left: -10px;
   flex-wrap: wrap;
 }
 
 .card-text {
-  padding: 30px;
-  color: #180c28;
+  padding:  30px;
+  color:#2c2f3d;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
+    margin: -10px;
+  
+  
 }
 
 .units {
   font-size: 15px;
+}
+
+.hundity-text{
+  font-size: larger;
 }
 
 .humidity {
