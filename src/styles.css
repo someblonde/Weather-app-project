@@ -41,11 +41,14 @@ container{
    width: 48px;
    vertical-align: middle;
    
-  
-   
- 
-
 }
+   
+img{
+  margin-left: -15px;
+  
+}
+
+
 
 .icons{
     display: flex;
@@ -88,6 +91,7 @@ container{
   margin-right: -10px;
   margin-left: -10px;
   flex-wrap: wrap;
+ 
 }
 
 .card-text {
