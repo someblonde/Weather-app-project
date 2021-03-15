@@ -36,9 +36,13 @@ container{
 }
 
 .hours{
+  height: 48px;
+   margin: 10px;
+   width: 48px;
+   vertical-align: middle;
+   
   
-  
-  
+   
  
 
 }
@@ -78,8 +82,8 @@ container{
   position: relative;
   top: -170px;
   padding: 5px;
-  font-size: 17px;
-  font-weight: bold;
+  font-size: 19px;
+  font-weight: normal;
   color: #2c2f3d;
   margin-right: -10px;
   margin-left: -10px;
@@ -92,7 +96,7 @@ container{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
     margin: -10px;
-  
+   
   
 }
 
